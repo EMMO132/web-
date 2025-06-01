@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FiveM Garage - Premium FiveM Cars, Motorbikes & More</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#6d28d9',secondary:'#4f46e5'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: #111827;
+color: #f3f4f6;
+}
+.hero-section {
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('https://readdy.ai/api/search-image?query=A%20stunning%2C%20photorealistic%20image%20of%20luxury%20sports%20cars%20and%20motorcycles%20in%20a%20modern%20showroom%20with%20neon%20lighting.%20The%20image%20shows%20high-end%20vehicles%20with%20glossy%20finishes%20under%20dramatic%20lighting.%20The%20background%20is%20dark%20with%20subtle%20purple%20and%20blue%20accent%20lighting%20creating%20a%20premium%20gaming%20atmosphere&width=1920&height=1080&seq=123456&orientation=landscape');
+background-size: cover;
+background-position: center;
+}
+.category-card {
+transition: all 0.3s ease;
+background-size: cover;
+background-position: center;
+}
+.category-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.card-overlay {
+background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%);
+}
+input:focus {
+outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+</style>
+</head>
+<body>
+<header class="bg-gray-900 text-white sticky top-0 z-50 border-b border-gray-800">
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<a href="#" class="text-3xl font-['Pacifico'] text-primary"> <a href="#" class="block">
+  <div class="flex items-center space-x-4">
+  <img src="https://cdn.discordapp.com/attachments/1377636779565383681/1378353700501848137/3dgifmaker10197.gif?ex=683c4b6a&is=683af9ea&hm=fdaa71138b7fea6a0d43ad6debb1d0a395ed06878aa22e000b5dc40c1f9c87bc" 
+       alt="Logo" 
+       class="h-32 w-auto" />
+
+  <span class="text-white text-3xl font-semibold tracking-widest">Tunisian Vibe</span>
+</div>
+
+</a>
+<nav class="hidden md:flex space-x-8">
+<div class="flex flex-col items-center space-y-1">
+  <a href="https://discord.gg/PezyCk2k" target="_blank" rel="noopener noreferrer" class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
+    <i class="ri-discord-line text-xl"></i>
+  </a>
+  <a href="#" class="font-medium hover:text-primary transition-colors">join our discord</a>
+</div>
+
+
+
+<div class="flex items-center space-x-4">
+<div class="relative">
+</div>
+</div>
+<div class="md:hidden w-10 h-10 flex items-center justify-center">
+<i class="ri-menu-line text-2xl"></i>
+</div>
+</div>
+</header>
+<section class="hero-section text-white">
+<div class="container mx-auto px-4 py-32 w-full">
+<div class="max-w-2xl">
+<h1 class="text-5xl font-bold mb-6">Tunisian vibe cars </h1>
+<p class="text-xl mb-8">Elevate your gaming experience with our exclusive collection of high-quality cars, motorbikes, VIP packs, and mechano </p>
+<div class="flex flex-wrap gap-4">
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-gray-900">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold mb-4">Explore Our Categories</h2>
+<p class="text-gray-400 max-w-2xl mx-auto">Discover our wide range of premium FiveM assets designed to enhance your gameplay and server experience.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Cars Category -->
+<div class="category-card rounded-lg overflow-hidden h-96 relative group">
+  <div style="background-image: url('https://readdy.ai/api/search-image?query=A%20photorealistic%20image%20of%20luxury%20sports%20cars%20in%20a%20modern%20showroom%20with%20dramatic%20lighting.%20Multiple%20high-end%20vehicles%20with%20glossy%20finishes%20are%20displayed.%20The%20background%20is%20dark%20with%20subtle%20blue%20and%20purple%20accent%20lighting%20creating%20a%20premium%20atmosphere.%20The%20image%20has%20a%20cinematic%20quality%20with%20sharp%20details%20and%20reflections%20on%20the%20car%20surfaces&width=600&height=800&seq=123457&orientation=portrait');" class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500"></div>
+
+  <div class="card-overlay absolute inset-0 flex flex-col justify-end p-6">
+    <div class="w-12 h-12 bg-primary/80 rounded-full flex items-center justify-center mb-4">
+      <i class="ri-car-line text-white text-xl"></i>
+    </div>
+    <h1 class="text-2xl font-bold text-white mb-2">Cars</h1>
+    <p class="text-gray-200 mb-4">
+      Explore our collection of premium sports cars, luxury vehicles, and unique models.
+    </p>
+
+    <!-- زر Browse Cars يفتح صفحة cars.html في نفس التاب -->
+    <a href="Car-Details-and-Pricing.html" class="inline-flex items-center text-white font-medium underline">
+      Browse Cars
+      <i class="ri-arrow-right-line ml-2"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Motorbikes Category -->
+<div class="category-card rounded-lg overflow-hidden h-96 relative group">
+  <div style="background-image: url('https://readdy.ai/api/search-image?query=A%20photorealistic%20image%20of%20high-performance%20motorcycles%20in%20a%20modern%20showroom%20with%20dramatic%20lighting.%20Multiple%20sleek%20motorcycles%20with%20glossy%20finishes%20are%20displayed.%20The%20background%20is%20dark%20with%20subtle%20blue%20and%20purple%20accent%20lighting%20creating%20a%20premium%20atmosphere.%20The%20image%20has%20a%20cinematic%20quality%20with%20sharp%20details%20and%20reflections%20on%20the%20motorcycle%20surfaces&width=600&height=800&seq=123458&orientation=portrait');" class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500"></div>
+
+  <div class="card-overlay absolute inset-0 flex flex-col justify-end p-6">
+    <div class="w-12 h-12 bg-primary/80 rounded-full flex items-center justify-center mb-4">
+      <i class="ri-motorbike-line text-white text-xl"></i>
+    </div>
+    <h3 class="text-2xl font-bold text-white mb-2">Motorbikes</h3>
+    <p class="text-gray-200 mb-4">
+      Discover our range of high-performance motorcycles, choppers, and racing bikes.
+    </p>
+
+    <!-- الزر هذا يفتح motorbikes.html -->
+    <a href="motorbikes.html" class="inline-flex items-center text-white font-medium underline">
+  Browse Motorbikes
+  <i class="ri-arrow-right-line ml-2"></i>
+</a>
+
+  </div>
+</div>
+
+<!-- VIP Packs Category -->
+<div class="category-card rounded-lg overflow-hidden h-96 relative group">
+  <div style="background-image: url('https://readdy.ai/api/search-image?query=A%20photorealistic%20image%20of%20premium%20VIP%20vehicle%20packages%20in%20a%20modern%20showroom%20with%20dramatic%20lighting.%20The%20image%20shows%20exclusive%20vehicle%20collections%20with%20special%20features%20and%20customizations.%20The%20background%20is%20dark%20with%20subtle%20blue%20and%20purple%20accent%20lighting%20creating%20a%20premium%20atmosphere.%20The%20image%20has%20a%20cinematic%20quality%20with%20sharp%20details%20and%20reflections%20on%20the%20vehicle%20surfaces&width=600&height=800&seq=123459&orientation=portrait');" class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500"></div>
+
+  <div class="card-overlay absolute inset-0 flex flex-col justify-end p-6">
+    <div class="w-12 h-12 bg-primary/80 rounded-full flex items-center justify-center mb-4">
+      <i class="ri-vip-crown-line text-white text-xl"></i>
+    </div>
+    <h3 class="text-2xl font-bold text-white mb-2">VIP Packs</h3>
+    <p class="text-gray-200 mb-4">
+      Exclusive vehicle bundles with premium features and special customizations.
+    </p>
+
+    <!-- الرابط الصحيح -->
+     <a href="vip-pack.html" class="inline-flex items-center text-white font-medium underline">
+  Browse VIP Packs
+  <i class="ri-arrow-right-line ml-2"></i>
+</a>
+
+
+  </div>
+</div>
+
+<!-- Mechano Category -->
+<div class="category-card rounded-lg overflow-hidden h-96 relative group">
+  <div style="background-image: url('https://readdy.ai/api/search-image?query=A%20photorealistic%20image%20of%20advanced%20automotive%20mechanic%20tools%20and%20equipment%20in%20a%20modern%20garage%20with%20dramatic%20lighting.%20The%20image%20shows%20high-tech%20diagnostic%20equipment%2C%20specialized%20tools%2C%20and%20mechanic%20stations.%20The%20background%20is%20dark%20with%20subtle%20blue%20and%20purple%20accent%20lighting%20creating%20a%20premium%20atmosphere.%20The%20image%20has%20a%20cinematic%20quality%20with%20sharp%20details%20and%20reflections%20on%20the%20metallic%20surfaces&width=600&height=800&seq=123460&orientation=portrait');" class="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-500"></div>
+
+  <div class="card-overlay absolute inset-0 flex flex-col justify-end p-6">
+    <div class="w-12 h-12 bg-primary/80 rounded-full flex items-center justify-center mb-4">
+      <i class="ri-tools-line text-white text-xl"></i>
+    </div>
+    <h3 class="text-2xl font-bold text-white mb-2">Mechano</h3>
+    <p class="text-gray-200 mb-4">
+      Professional mechanic tools, garage equipment, and vehicle customization options.
+    </p>
+
+    <!-- الزر يتحل mechano.html -->
+    <a href="MECHANO.HTML" class="inline-flex items-center text-white font-medium underline">
+      Browse Mechano
+      <i class="ri-arrow-right-line ml-2"></i>
+    </a>
+  </div>
+</div>
+
+</div>
+</div>
+</section>
+<section class="py-16 bg-gray-800">
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+</div>
+
+<footer class="bg-gray-900 text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<div>
+<img src="https://cdn.discordapp.com/attachments/1375489955446390846/1378374546289066024/standard_11.gif?ex=683c5ed4&is=683b0d54&hm=7777349391bd5fde56d29169956b120c15beb24f3cba8638b6f5156067b1236f&;
+       alt=" logo"="" class="h-32 w-auto">
+<p class="text-gray-400 mb-6">Premium FiveM assets for servers and players. Elevate your gaming experience with our exclusive collection.</p>
+<div class="flex space-x-4">
+<a href="#" class="text-gray-400 hover:text-white">
+<i class="ri-discord-fill text-xl"></i>
+</a>
+<a href="#" class="text-gray-400 hover:text-white">
+<i class="ri-youtube-fill text-xl"></i>
+</a>
+<a href="#" class="text-gray-400 hover:text-white">
+<i class="ri-twitter-x-fill text-xl"></i>
+</a>
+<a href="#" class="text-gray-400 hover:text-white">
+<i class="ri-instagram-fill text-xl"></i>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-bold mb-6">Quick Links</h4>
+<ul class="space-y-3">
+<li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+<li><a href="#cars" class="text-gray-400 hover:text-white">Cars</a></li>
+<li><a href="#motorbikes" class="text-gray-400 hover:text-white">Motorbikes</a></li>
+<li><a href="#vip" class="text-gray-400 hover:text-white">VIP Packs</a></li>
+<li><a href="#mechano" class="text-gray-400 hover:text-white">Mechano</a></li>
+</ul>
+</div>
+<div>
+<div>
+<h4 class="text-lg font-bold mb-6">Contact Us</h4>
+<ul class="space-y-3">
+<li class="flex items-start">
+<i class="ri-mail-line mr-3 mt-1"></i>
+<span class="text-gray-400">open ticket in our server</span>
+</li>
+<li class="flex items-start">
+<i class="ri-customer-service-2-line mr-3 mt-1"></i>
+<span class="text-gray-400">Live chat available 24/7</span>
+</li>
+<li class="flex items-start">
+<i class="ri-discord-line mr-3 mt-1"></i>
+<span class="text-gray-400">Join our Discord community 
+  https://discord.gg/PezyCk2k
+</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 pt-8">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Tunisisan Vibe. All rights reserved.</p>
+<div class="flex items-center space-x-4">
+<span 
+
+class="flex items-center space-x-4 text-gray-400 text-sm">
+  <span>Payment Methods:</span>
+  <span class="text-xl">Ooredoo</span>
+  <span class="text-xl">D17</span>
+  <i class="ri-paypal-fill text-xl"></i>
+</div>
+
+</div>
+</div>
+</div>
+</footer>
+<script id="category-navigation">
+document.addEventListener('DOMContentLoaded', function() {
+const categoryLinks = document.querySelectorAll('a[href^="#"]');
+categoryLinks.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetId = this.getAttribute('href').substring(1);
+const targetElement = document.getElementById(targetId);
+if (targetElement) {
+window.scrollTo({
+top: targetElement.offsetTop - 80,
+behavior: 'smooth'
+});
+}
+});
+});
+});
+</script>
+<script id="mobile-menu">
+document.addEventListener('DOMContentLoaded', function() {
+const menuButton = document.querySelector('.ri-menu-line').parentElement;
+const nav = document.querySelector('nav');
+menuButton.addEventListener('click', function() {
+nav.classList.toggle('hidden');
+nav.classList.toggle('flex');
+nav.classList.toggle('flex-col');
+nav.classList.toggle('absolute');
+nav.classList.toggle('top-16');
+nav.classList.toggle('right-4');
+nav.classList.toggle('bg-gray-900');
+nav.classList.toggle('p-4');
+nav.classList.toggle('rounded-lg');
+nav.classList.toggle('shadow-lg');
+nav.classList.toggle('z-50');
+});
+});
+</script>
+</body>
+</html>
